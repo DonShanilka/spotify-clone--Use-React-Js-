@@ -1,10 +1,13 @@
 import React from 'react'
 import './index.css'
+import { Sidebar } from './components/Sidebar'
 
 const App = () => {
   return (
-    <div className="w-20 h-10 bg-neutral-500">
-      App
+    <div className="h-screen bg-black">
+      <div className='h-[90%] flext'>
+        <Sidebar />
+      </div>
     </div>
   )
 }
