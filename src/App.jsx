@@ -1,6 +1,7 @@
 import React from 'react'
 import './index.css'
 import { Sidebar } from './components/Sidebar'
+import Player from './components/Player'
 
 const App = () => {
   return (
@@ -8,6 +9,7 @@ const App = () => {
       <div className='h-[90%] flext'>
         <Sidebar />
       </div>
+      <Player />
     </div>
   )
 }
