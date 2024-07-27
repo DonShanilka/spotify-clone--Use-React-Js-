@@ -13,7 +13,7 @@ const Player = () => {
                 </div>
             </div>
             <div className='flex flex-col items-center gap-1 m-auto'>
-                <div className='flex gap-4'>
+                <div className='flex gap-5'>
                     <img className='w-4 cursor-pointer' src={assets.shuffle_icon} alt="" />
                     <img className='w-4 cursor-pointer' src={assets.prev_icon} alt="" />
                     <img className='w-4 cursor-pointer' src={assets.play_icon} alt="" />
@@ -34,7 +34,7 @@ const Player = () => {
                 <img className='w-4' src={assets.queue_icon} alt="" />
                 <img className='w-4' src={assets.speaker_icon} alt="" />
                 <img className='w-4' src={assets.volume_icon} alt="" />
-                <div>
+                <div className='w-20 bg-slate-50 h-1 rounded'>
 
                 </div>
                 <img className='w-4' src={assets.mini_player_icon} alt="" />
